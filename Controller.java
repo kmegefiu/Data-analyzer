@@ -20,10 +20,10 @@ public class Controller {
  
         for(int n = 1; n<=8; n++){
             
-            // create a Stack object named stack
+            // create a Stack object 
             Stack stack = new Stack<>();
             
-            // create a StopWatch object named stopWatch
+            // create a StopWatch object
             StopWatch stopWatch = new StopWatch();
 
             // start the stopWatch
