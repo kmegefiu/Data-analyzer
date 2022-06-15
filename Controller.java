@@ -11,8 +11,6 @@ import java.util.Set;
 
 public class Controller {
   
-    
-    
     public static void main(String[] args) {
       
         // create a DataAnalyzer object named dataAnalyzer
@@ -20,7 +18,6 @@ public class Controller {
 
         // find the first 35 fibonacci numbers
  
-        
         for(int n = 1; n<=8; n++){
             
             // create a Stack object named stack
@@ -73,11 +70,7 @@ public class Controller {
     
  
         }//end of for loop
-        
-   
-        //----------------------------------
-        
-        
+              
         // run the displayInfo method on each executionInfo object
         for(ExecutionInfo executionInfo: dataAnalyzer.getData()){
             executionInfo.displayInfo();
