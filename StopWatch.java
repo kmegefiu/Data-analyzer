@@ -1,11 +1,6 @@
 
 package util;
 
-
-
-// THIS CLASS DOES NOT NEED TO BE CHANGED 
-// ALL THE CODE IS HERE ALREADY
-
 public class StopWatch {
     
     private long elapsedTime;
