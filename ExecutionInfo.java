@@ -25,9 +25,6 @@ public class ExecutionInfo {
            Set<String> keySet = fibMap.keySet();
             
            // calculate the totalMethodCalls 
-           // hint use the map and keySet above
-           // hint use a enhance for-loop
-           // YOUR CODE HERE
            for(String key: keySet){
                
               totalMethodCalls = totalMethodCalls + fibMap.get(key);  
@@ -81,19 +78,13 @@ public class ExecutionInfo {
         
         
         // used the keySet variable to loop throught all the keys to output the following
-        // hint use this
         //System.out.printf("%-20s %-5d \t %-10.3f\n" , key +":" ,fibMap.get(key), (fibMap.get(key)/ totalMethodCalls));
      
-        
-        // YOUR CODE HERE
         for(String key: keySet){
           System.out.printf("%-20s %-5d \t %-10.3f\n" , key +":" ,fibMap.get(key), (fibMap.get(key)/ totalMethodCalls));
          
         }
-        
-        
-        // this is just to have a space
-        // leave it 
+
        System.out.println("\n");
     }
  
